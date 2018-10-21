@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17C07B85217C9CEB006E2720 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C07B84217C9CEB006E2720 /* AppDelegate.swift */; };
+		17C07B87217C9CEB006E2720 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C07B86217C9CEB006E2720 /* ViewController.swift */; };
+		17C07B8A217C9CEB006E2720 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17C07B88217C9CEB006E2720 /* Main.storyboard */; };
+		17C07B8C217C9CEF006E2720 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17C07B8B217C9CEF006E2720 /* Assets.xcassets */; };
+		17C07B8F217C9CEF006E2720 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17C07B8D217C9CEF006E2720 /* LaunchScreen.storyboard */; };
+		17C07B98217C9EC7006E2720 /* BankAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C07B97217C9EC7006E2720 /* BankAccount.swift */; };
+		17C07BA0217CA1D1006E2720 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C07B9F217CA1D1006E2720 /* IntentHandler.swift */; };
+		17C07BA4217CA1D1006E2720 /* sirikitTest1 Intents.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 17C07B9D217CA1D1006E2720 /* sirikitTest1 Intents.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		17C07BAC217CB4A4006E2720 /* BankAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C07B97217C9EC7006E2720 /* BankAccount.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17C07BA2217CA1D1006E2720 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17C07B79217C9CEB006E2720 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17C07B9C217CA1D1006E2720;
+			remoteInfo = "sirikitTest1 Intents";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		17C07BA8217CA1D1006E2720 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				17C07BA4217CA1D1006E2720 /* sirikitTest1 Intents.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		173364E0217CB7C400F6559E /* sirikitTest1 Intents.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "sirikitTest1 Intents.entitlements"; sourceTree = "<group>"; };
+		17C07B81217C9CEB006E2720 /* sirikitTest1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sirikitTest1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17C07B84217C9CEB006E2720 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		17C07B86217C9CEB006E2720 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		17C07B89217C9CEB006E2720 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17C07B8B217C9CEF006E2720 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17C07B8E217C9CEF006E2720 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17C07B90217C9CEF006E2720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17C07B96217C9E6F006E2720 /* sirikitTest1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = sirikitTest1.entitlements; sourceTree = "<group>"; };
+		17C07B97217C9EC7006E2720 /* BankAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAccount.swift; sourceTree = "<group>"; };
+		17C07B9D217CA1D1006E2720 /* sirikitTest1 Intents.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "sirikitTest1 Intents.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17C07B9F217CA1D1006E2720 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		17C07BA1217CA1D1006E2720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17C07B7E217C9CEB006E2720 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C07B9A217CA1D1006E2720 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17C07B78217C9CEB006E2720 = {
+			isa = PBXGroup;
+			children = (
+				17C07B83217C9CEB006E2720 /* sirikitTest1 */,
+				17C07B9E217CA1D1006E2720 /* sirikitTest1 Intents */,
+				17C07B82217C9CEB006E2720 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17C07B82217C9CEB006E2720 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17C07B81217C9CEB006E2720 /* sirikitTest1.app */,
+				17C07B9D217CA1D1006E2720 /* sirikitTest1 Intents.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17C07B83217C9CEB006E2720 /* sirikitTest1 */ = {
+			isa = PBXGroup;
+			children = (
+				17C07B96217C9E6F006E2720 /* sirikitTest1.entitlements */,
+				17C07B84217C9CEB006E2720 /* AppDelegate.swift */,
+				17C07B86217C9CEB006E2720 /* ViewController.swift */,
+				17C07B88217C9CEB006E2720 /* Main.storyboard */,
+				17C07B8B217C9CEF006E2720 /* Assets.xcassets */,
+				17C07B8D217C9CEF006E2720 /* LaunchScreen.storyboard */,
+				17C07B90217C9CEF006E2720 /* Info.plist */,
+				17C07B97217C9EC7006E2720 /* BankAccount.swift */,
+			);
+			path = sirikitTest1;
+			sourceTree = "<group>";
+		};
+		17C07B9E217CA1D1006E2720 /* sirikitTest1 Intents */ = {
+			isa = PBXGroup;
+			children = (
+				173364E0217CB7C400F6559E /* sirikitTest1 Intents.entitlements */,
+				17C07B9F217CA1D1006E2720 /* IntentHandler.swift */,
+				17C07BA1217CA1D1006E2720 /* Info.plist */,
+			);
+			path = "sirikitTest1 Intents";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17C07B80217C9CEB006E2720 /* sirikitTest1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17C07B93217C9CEF006E2720 /* Build configuration list for PBXNativeTarget "sirikitTest1" */;
+			buildPhases = (
+				17C07B7D217C9CEB006E2720 /* Sources */,
+				17C07B7E217C9CEB006E2720 /* Frameworks */,
+				17C07B7F217C9CEB006E2720 /* Resources */,
+				17C07BA8217CA1D1006E2720 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17C07BA3217CA1D1006E2720 /* PBXTargetDependency */,
+			);
+			name = sirikitTest1;
+			productName = sirikitTest1;
+			productReference = 17C07B81217C9CEB006E2720 /* sirikitTest1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17C07B9C217CA1D1006E2720 /* sirikitTest1 Intents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17C07BA5217CA1D1006E2720 /* Build configuration list for PBXNativeTarget "sirikitTest1 Intents" */;
+			buildPhases = (
+				17C07B99217CA1D1006E2720 /* Sources */,
+				17C07B9A217CA1D1006E2720 /* Frameworks */,
+				17C07B9B217CA1D1006E2720 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sirikitTest1 Intents";
+			productName = "sirikitTest1 Intents";
+			productReference = 17C07B9D217CA1D1006E2720 /* sirikitTest1 Intents.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17C07B79217C9CEB006E2720 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = hyunsoo;
+				TargetAttributes = {
+					17C07B80217C9CEB006E2720 = {
+						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.Siri = {
+								enabled = 1;
+							};
+						};
+					};
+					17C07B9C217CA1D1006E2720 = {
+						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 17C07B7C217C9CEB006E2720 /* Build configuration list for PBXProject "sirikitTest1" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17C07B78217C9CEB006E2720;
+			productRefGroup = 17C07B82217C9CEB006E2720 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17C07B80217C9CEB006E2720 /* sirikitTest1 */,
+				17C07B9C217CA1D1006E2720 /* sirikitTest1 Intents */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17C07B7F217C9CEB006E2720 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C07B8F217C9CEF006E2720 /* LaunchScreen.storyboard in Resources */,
+				17C07B8C217C9CEF006E2720 /* Assets.xcassets in Resources */,
+				17C07B8A217C9CEB006E2720 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C07B9B217CA1D1006E2720 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17C07B7D217C9CEB006E2720 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C07B87217C9CEB006E2720 /* ViewController.swift in Sources */,
+				17C07B98217C9EC7006E2720 /* BankAccount.swift in Sources */,
+				17C07B85217C9CEB006E2720 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17C07B99217CA1D1006E2720 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C07BA0217CA1D1006E2720 /* IntentHandler.swift in Sources */,
+				17C07BAC217CB4A4006E2720 /* BankAccount.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17C07BA3217CA1D1006E2720 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17C07B9C217CA1D1006E2720 /* sirikitTest1 Intents */;
+			targetProxy = 17C07BA2217CA1D1006E2720 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17C07B88217C9CEB006E2720 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17C07B89217C9CEB006E2720 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17C07B8D217C9CEF006E2720 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17C07B8E217C9CEF006E2720 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17C07B91217C9CEF006E2720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		17C07B92217C9CEF006E2720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17C07B94217C9CEF006E2720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = sirikitTest1/sirikitTest1.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ACE9KE4UN9;
+				INFOPLIST_FILE = sirikitTest1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = han.hyunsoo.sirikitTest1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17C07B95217C9CEF006E2720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = sirikitTest1/sirikitTest1.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ACE9KE4UN9;
+				INFOPLIST_FILE = sirikitTest1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = han.hyunsoo.sirikitTest1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		17C07BA6217CA1D1006E2720 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "sirikitTest1 Intents/sirikitTest1 Intents.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ACE9KE4UN9;
+				INFOPLIST_FILE = "sirikitTest1 Intents/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "han.hyunsoo.sirikitTest1.sirikitTest1-Intents";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17C07BA7217CA1D1006E2720 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "sirikitTest1 Intents/sirikitTest1 Intents.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ACE9KE4UN9;
+				INFOPLIST_FILE = "sirikitTest1 Intents/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "han.hyunsoo.sirikitTest1.sirikitTest1-Intents";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17C07B7C217C9CEB006E2720 /* Build configuration list for PBXProject "sirikitTest1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C07B91217C9CEF006E2720 /* Debug */,
+				17C07B92217C9CEF006E2720 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17C07B93217C9CEF006E2720 /* Build configuration list for PBXNativeTarget "sirikitTest1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C07B94217C9CEF006E2720 /* Debug */,
+				17C07B95217C9CEF006E2720 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17C07BA5217CA1D1006E2720 /* Build configuration list for PBXNativeTarget "sirikitTest1 Intents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17C07BA6217CA1D1006E2720 /* Debug */,
+				17C07BA7217CA1D1006E2720 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17C07B79217C9CEB006E2720 /* Project object */;
+}
